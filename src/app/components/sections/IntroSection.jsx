@@ -17,7 +17,7 @@ const HeroSection = () => {
         >
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-cyan-400">
-              Hi, I'm{" "}
+              Hi, I&apos;m{" "}
             </span>
             <br />
             <TypeAnimation
@@ -30,6 +30,8 @@ const HeroSection = () => {
                 1000,
                 "an iOS Developer",
                 1000,
+                "a Data Scientist",
+                1000,
                 "an avid learner.",
                 1000,
               ]}
@@ -38,11 +40,11 @@ const HeroSection = () => {
               repeat={Infinity}
             />
           </h1>
+          <p className="text-[#ADB7BE] text-base sm:text-lg mb-4 lg:text-xl">
+            Aspiring Software Engineer. Born and raised in Nigeria; striving to make the world a better place one line of code at a time.
+          </p>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
-            praesentium sit exercitationem blanditiis reprehenderit labore
-            recusandae odio ipsam, facere eius cupiditate temporibus laboriosam
-            cumque quisquam placeat velit unde corporis eaque.
+            Imperfect, aware, and ever changing with each new experience.
           </p>
           <div>
             <Link
