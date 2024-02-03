@@ -71,7 +71,7 @@ const AboutSection = () => {
   };
 
   return (
-    <section className="text-white ">
+    <section id="about" className="text-white">
       <div className="md:grid md:grid-cols-2 gap-8 items-center px-4 py-8 xl:gap16 sm:py-16 xl:px-16">
         <Image
           src="/images/workspace4.png"
@@ -82,10 +82,15 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base md:text-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ipsam
-            facere quo repellat expedita doloremque deserunt pariatur
-            voluptatibus, dolore tempora, eveniet temporibus quis iusto
-            laudantium itaque magnam ipsa culpa. Dolorum?
+            I am a fullstack web and mobile developer with a passion for
+            creating interactive and responsive applications. I have experience
+            wotking with JavaScript, TypeScript, React, Redux, Node.js, Next.js,
+            Angular, Vue, Express, MySQL, PostgreSQL, MongoDB, and Git. I also
+            have relevant experience with data science using tools like Pandas,
+            Numpy, Seaborn, and Scikit-Learn. I am a quick learner and I am
+            always looking to expand my knowledge and skill set. I am a team
+            player and always excited to work with others to create amazing
+            applications.
           </p>
           <div className="flex flex-row mt-8">
             <TabButton

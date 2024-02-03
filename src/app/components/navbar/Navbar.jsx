@@ -26,7 +26,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-10 bg-[#121212] ${
+      className={`fixed mx-auto border-b border-b-[#33353F] top-0 left-0 right-0 z-20 bg-[#121212] ${
         navbarOpen ? "bg-opacity-100" : "bg-opacity-90"
       }`}
     >
@@ -43,7 +43,7 @@ const Navbar = () => {
             </div>
             <Link
               href={"/"}
-              className="text-3xl md:text-6xl text-white font-semibold pt-4 pl-3"
+              className="text-4xl md:text-6xl text-white font-semibold py-3 pl-3"
               style={{ fontFamily: "Brush Script MT, cursive" }}
             >
                 Harold
