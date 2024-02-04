@@ -31,7 +31,7 @@ const Navbar = () => {
       }`}
     >
       <div className="flex flex-wrap items-center justify-between mx-auto px-4 py-2">
-        <div className="flex items-center pl-10 pt-4">
+        <div className="flex items-center md:pl-10 pt-4">
             <div className="rounded-full bg-[#181818] w-12 h-12 relative">
                 <Image
                 src="/images/mem2.png"
