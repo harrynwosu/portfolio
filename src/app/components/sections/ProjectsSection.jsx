@@ -9,7 +9,7 @@ const projects = [
   {
     id: 1,
     title: "NextJS Portfolio Website",
-    description: "Project 1 description",
+    description: "The website you are currently on! Built mainly using Javascript, Node.js, React, and Tailwind CSS. A responsive and mobile-friendly site designed to showcase my relevant skills and experience.",
     image: "images/projects/Project1.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/harrynwosu/portfolio",
@@ -17,7 +17,7 @@ const projects = [
   {
     id: 2,
     title: "Konverse Real-time Chat App",
-    description: "Project 2 description",
+    description: "My first go at a chat application. Built with React, SCSS, and Chatengine API, using web sockets under the hood. Currently supports group chats. Still a work in progress!",
     image: "images/projects/Project2.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/harrynwosu/konverse-chat-app",
@@ -25,7 +25,7 @@ const projects = [
   {
     id: 3,
     title: "Ramp Coding Challenge",
-    description: "Project 3 description",
+    description: "A frontend coding challenge in a React + TypeScript codebase. Involved fixing a variety of bugs ranging from incorrect state management, rendering issues and styling issues.",
     image: "images/projects/Project3.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/harrynwosu/ramp-frontend-challenge",
@@ -33,8 +33,8 @@ const projects = [
   {
     id: 4,
     title: "Wordle iOS App",
-    description: "Project 4 description",
-    image: "images/projects/Project4.png",
+    description: "My implementation of the famous Wordle game on iOS devices! Developed using Swift and UI Kit. Implemented settings that allows players change the length of the goal word, number of guesses allowed, and an insane difficulty level 'alien wordle'. Feel free to try on your devices and let me know your thoughts!",
+    image: "images/projects/WordleProject.png",
     tag: ["All", "Mobile"],
     gitUrl: "https://github.com/harrynwosu/iOS-Project-2",
   },
