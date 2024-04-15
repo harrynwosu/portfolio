@@ -83,8 +83,8 @@ const AboutSection = () => {
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base md:text-lg">
             I am a fullstack web and mobile developer with a passion for
-            creating interactive and responsive applications. I have experience
-            wotking with JavaScript, TypeScript, React, Redux, Node.js, Next.js,
+            creating interactive and responsive applications, backend systems, and microservices. I have experience
+            working with JavaScript, TypeScript, React, Redux, Node.js, Next.js,
             Angular, Vue, Express, MySQL, PostgreSQL, MongoDB, and Git. I also
             have relevant experience with data science using tools like Pandas,
             Numpy, Seaborn, and Scikit-Learn. I am a quick learner and I am
