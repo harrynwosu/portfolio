@@ -6,10 +6,19 @@ import MenuOverlay from "./MenuOverlay";
 import NavLink from "./NavLink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 
-const navLinks = [
+export interface NavLinkData {
+  title: string,
+  path: string,
+};
+
+const navLinks: NavLinkData[] = [
   {
-    title: "About",
-    path: "#about",
+    title: "Skills",
+    path: "#experience",
+  },
+  {
+    title: "Experience",
+    path: "#experience",
   },
   {
     title: "Projects",
