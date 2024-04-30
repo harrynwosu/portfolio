@@ -11,7 +11,7 @@ type ExperienceCardProps = {
 
 const ExperienceCard = ({id, name, date, description, logo}: ExperienceCardProps) => {
     return (
-        <div className={`relative w-full md:w-1/2 py-2 px-4 md:px-12  ${id % 2 === 0 ? "left-exp" : "right-exp"}`}>
+        <div className={`relative z-20 w-full md:w-1/2 py-2 px-4 md:px-12  ${id % 2 === 0 ? "left-exp" : "right-exp"}`}>
             {/* <Image src={logo} alt={name} className={`absolute rounded-full top-8 z-10 ${id % 2 === 0 ? 'md:-right-5' : 'md:-left-5'}`}/> */}
             <Image src={logo} alt={name} className={`absolute rounded-full top-8 z-10 ${id % 2 === 0 ? 'left-logo' : 'right-logo'}`}/>
             <div className="textbox relative left-10 md:left-0 md:w-full py-5 px-7 m-4 md:m-0 rounded-lg text-sm bg-[#18191E] border border-[#33353F]">

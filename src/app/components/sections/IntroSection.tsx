@@ -8,12 +8,12 @@ import { motion } from "framer-motion";
 const HeroSection = () => {
   return (
     <section className="py-12 lg:py-16">
-      <div className="grid grid-cols-1 sm:grid-cols-12">
+      <div className="grid grid-cols-1 sm:grid-cols-12 z-20">
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.3 }}
-          className="col-span-7 place-self-center text-center sm:text-left"
+          className="col-span-7 place-self-center text-center sm:text-left z-20"
         >
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-cyan-400">
@@ -46,12 +46,13 @@ const HeroSection = () => {
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
             Imperfect, aware, and ever changing with each new experience.
           </p>
-          <div>
+          <div className="z-20">
             <Link
               href="https://www.linkedin.com/in/harold-nwosu/"
               target="_blank"
+              className='z-50'
             >
-              <button className="px-1 py-1 rounded-full w-full sm:w-fit mr-4 bg-gradient-to-br from-primary-500 to-cyan-500 hover:bg-slate-800 text-white">
+              <button className="px-1 py-1 rounded-full w-full sm:w-fit mr-4 bg-gradient-to-br from-primary-500 to-cyan-500 hover:bg-slate-800 text-white z-30">
                 <span className="block bg-[121212] hover:bg-slate-800 rounded-full px-5 py-2">
                   Hire Me
                 </span>
@@ -61,7 +62,7 @@ const HeroSection = () => {
               href="https://drive.google.com/file/d/1_FmdQRwY91U1l650lbP2JMEXPsFlKxag/view?usp=sharing"
               target="_blank"
             >
-              <button className="px-1 py-1 rounded-full w-full sm:w-fit bg-gradient-to-br from-primary-500 to-cyan-500 hover:bg-slate-800 text-white mt-3">
+              <button className="px-1 py-1 rounded-full w-full sm:w-fit bg-gradient-to-br from-primary-500 to-cyan-500 hover:bg-slate-800 text-white mt-3 z-30">
                 <span className="block bg-[121212] hover:bg-slate-800 rounded-full px-5 py-2">
                   Download Resume
                 </span>
@@ -80,8 +81,9 @@ const HeroSection = () => {
             <Image
               src="/images/back.png"
               alt="profile image"
-              className="absolute mx-auto w-full h-full rounded-full object-cover"
+              className="absolute mx-auto w-full h-full rounded-full object-cover z-20"
               fill
+              draggable={false}
             />
           </div>
         </motion.div>

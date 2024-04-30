@@ -11,7 +11,7 @@ const ProjectCard = ({
   return (
     <div>
       <div
-        className="h-52 md:h-72 relative group"
+        className="h-52 md:h-72 relative group z-20"
         style={{
           background: `url(${imgUrl})`,
           backgroundSize: "cover",

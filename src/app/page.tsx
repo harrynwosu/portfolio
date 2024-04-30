@@ -7,6 +7,7 @@ import ProjectsSection from "./components/sections/ProjectsSection";
 import EmailSection from "./components/sections/EmailSection";
 import Footer from "./components/sections/Footer";
 import ExperienceSection from "./components/sections/ExperienceSection";
+import SkillsSection from "./components/sections/SkillsSection";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <HeroSection />
         {/* <AboutSection /> */}
         <ExperienceSection />
+        <SkillsSection />
         <ProjectsSection />
         <EmailSection />
       </div>

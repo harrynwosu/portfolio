@@ -8,8 +8,8 @@ import { URLPattern } from "next/server";
 const projects = [
   {
     id: 1,
-    title: "NextJS Portfolio Website",
-    description: "The website you are currently on! Built mainly using Javascript, Node.js, React, and Tailwind CSS. A responsive and mobile-friendly site designed to showcase my relevant skills and experience.",
+    title: "Portfolio",
+    description: "The website you are currently on! Built in NextJS mainly using Typescript, Node.js, React, and Tailwind CSS. A responsive and mobile-friendly site designed to showcase my relevant skills and experience.",
     image: "images/projects/Project1.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/harrynwosu/portfolio",
@@ -59,9 +59,9 @@ const ProjectsSection = () => {
   };
 
   return (
-    <section id="projects" ref={ref}>
-      <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
-        My Projects
+    <section id="projects" ref={ref} className="z-20">
+      <h2 className="text-center text-4xl font-bold text-white mt-20 mb-8 md:mb-12">
+        Projects
       </h2>
       <div className="flex flex-row justify-center items-center gap-2 py-6">
         <ProjectTag
