@@ -26,8 +26,63 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+.left-exp-arrow {
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 28px;
+  z-index: 1;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid #18191E;
+  right: -15px;
+}
+.left-exp {
+  left: 0;
+}
+
+.right-exp {
+  left: 50%;
+}
+
+.left-logo {
+  right: -1.25rem;
+}
+
+.right-logo {
+  left: -1.25rem;
+}
+
+.right-exp-arrow {
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 28px;
+  z-index: 1;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 15px solid #18191E;
+  left: -15px;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .right-exp {
+    left: 0px
+  }
+
+  .left-logo, .right-logo {
+    left: 0px;
+  }
+
+  .left-exp-arrow, .right-exp-arrow {
+    border-right: 15px solid #18191E;
+    border-left: 0px;
+    left: -15px;
   }
 }

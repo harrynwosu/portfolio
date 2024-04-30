@@ -6,10 +6,19 @@ import MenuOverlay from "./MenuOverlay";
 import NavLink from "./NavLink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 
-const navLinks = [
+export interface NavLinkData {
+  title: string,
+  path: string,
+};
+
+const navLinks: NavLinkData[] = [
   {
-    title: "About",
-    path: "#about",
+    title: "Skills",
+    path: "#experience",
+  },
+  {
+    title: "Experience",
+    path: "#experience",
   },
   {
     title: "Projects",
@@ -26,15 +35,15 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed mx-auto border-b border-b-[#33353F] top-0 left-0 right-0 z-20 bg-[#121212] ${
+      className={`fixed mx-auto border-b border-b-[#33353F] top-0 left-0 right-0 z-30 bg-[#121212] ${
         navbarOpen ? "bg-opacity-100" : "bg-opacity-90"
       }`}
     >
       <div className="flex flex-wrap items-center justify-between mx-auto px-4 py-2">
         <div className="flex items-center md:pl-10 pt-4">
-            <div className="rounded-full bg-[#181818] w-12 h-12 relative">
+            <div className="rounded-full bg-[#181818] w-12 h-12 relative overflow-hidden object-cover">
                 <Image
-                src="/images/mem2.png"
+                src="/images/back.png"
                 alt="profile image"
                 className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                 width={300}

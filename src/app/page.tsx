@@ -1,3 +1,4 @@
+import React from "react";
 import Image from "next/image";
 import Navbar from "./components/navbar/Navbar";
 import HeroSection from "./components/sections/IntroSection";
@@ -5,6 +6,8 @@ import AboutSection from "./components/sections/AboutSection";
 import ProjectsSection from "./components/sections/ProjectsSection";
 import EmailSection from "./components/sections/EmailSection";
 import Footer from "./components/sections/Footer";
+import ExperienceSection from "./components/sections/ExperienceSection";
+import SkillsSection from "./components/sections/SkillsSection";
 
 export default function Home() {
   return (
@@ -12,7 +15,9 @@ export default function Home() {
       <Navbar />
       <div className="container mx-auto mt-24 px-12 py-4">
         <HeroSection />
-        <AboutSection />
+        {/* <AboutSection /> */}
+        <ExperienceSection />
+        <SkillsSection />
         <ProjectsSection />
         <EmailSection />
       </div>

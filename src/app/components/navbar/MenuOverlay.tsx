@@ -1,7 +1,12 @@
 import React from "react";
 import NavLink from "./NavLink";
+import { NavLinkData } from "./Navbar";
 
-const MenuOverlay = ({ links }) => {
+type MenuOverlayProps = {
+  links: NavLinkData[]
+};
+
+const MenuOverlay = ({ links } : MenuOverlayProps) => {
   return (
     <ul className="flex flex-col md:hidden py-4 items-center">
       {links.map((link, index) => (
