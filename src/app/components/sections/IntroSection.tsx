@@ -84,6 +84,7 @@ const HeroSection = () => {
               className="absolute mx-auto w-full h-full rounded-full object-cover z-20"
               fill
               draggable={false}
+              priority
             />
           </div>
         </motion.div>
