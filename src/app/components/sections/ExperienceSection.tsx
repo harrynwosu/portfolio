@@ -19,28 +19,28 @@ const experiences: Experience[] = [
     {
         id: 0,
         name: "Slack",
-        date: "Summer 2024",
+        date: "Virtual HQ - Summer 2024",
         description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident eum eius corrupti aliquid inventore dicta, quo natus necessitatibus sed obcaecati cumque sint doloribus ut accusantium magni fugit, nisi tenetur voluptatibus.",
         logo: SlackIcon
     },
     {
         id: 1,
         name: "Salesforce Inc.",
-        date: "Summer 2023",
+        date: "Canvas - Summer 2023",
         description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident eum eius corrupti aliquid inventore dicta, quo natus necessitatibus sed obcaecati cumque sint doloribus ut accusantium magni fugit, nisi tenetur voluptatibus.",
         logo: SalesforceIcon
     },
     {
         id: 2,
         name: "J.P Morgan Chase & Co.",
-        date: "October 2023",
+        date: "Code for Good Hackathon - October 2023",
         description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident eum eius corrupti aliquid inventore dicta, quo natus necessitatibus sed obcaecati cumque sint doloribus ut accusantium magni fugit, nisi tenetur voluptatibus.",
         logo: ChaseIcon
     },
     {
         id: 3,
         name: "Bloomberg",
-        date: "June 2023 - July 2023",
+        date: "Engineering Accelerator - June 2023 - July 2023",
         description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident eum eius corrupti aliquid inventore dicta, quo natus necessitatibus sed obcaecati cumque sint doloribus ut accusantium magni fugit, nisi tenetur voluptatibus.",
         logo: BloombergIcon
     },
