@@ -62,8 +62,8 @@ export const skillsData = [
   {
     skill_name: "Node js",
     Image: "/skills/node-js.png",
-    width: 80,
-    height: 80,
+    width: 75,
+    height: 75,
   },
   {
     skill_name: "Mongo DB",
@@ -125,15 +125,15 @@ export const frontendSkills = [
   {
     skill_name: "NextJS",
     Image: "/skills/next.png",
-    width: 80,
-    height: 80,
+    width: 75,
+    height: 75,
   },
 ];
   
 export const backendSkills = [
   {
-    skill_name: "Node js",
-    Image: "/skills/node-js.png",
+    skill_name: "Cypress",
+    Image: "/skills/cypress.svg",
     width: 80,
     height: 80,
   },
