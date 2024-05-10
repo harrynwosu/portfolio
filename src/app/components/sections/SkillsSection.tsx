@@ -12,7 +12,7 @@ const SkillsSection = () => {
   return (
     <section 
         id="skills" 
-        className='flex flex-col items-center justify-center gap-3 h-full relative overflow-hidden pt-14'
+        className='flex flex-col items-center justify-center gap-3 h-full relative pt-14 z-20'
         style={{transform: 'scale(0.9'}}
     >
         <h2 className="text-center text-4xl font-bold text-white mt-2 mb-8 md:mb-12">
@@ -24,6 +24,7 @@ const SkillsSection = () => {
                 <SkillDataProvider
                     key={index}
                     src={image.Image}
+                    name={image.skill_name}
                     width={image.width}
                     height={image.height}
                     index={index}
@@ -36,6 +37,7 @@ const SkillsSection = () => {
                 <SkillDataProvider
                     key={index}
                     src={image.Image}
+                    name={image.skill_name}
                     width={image.width}
                     height={image.height}
                     index={index}
@@ -48,6 +50,7 @@ const SkillsSection = () => {
                 <SkillDataProvider
                     key={index}
                     src={image.Image}
+                    name={image.skill_name}
                     width={image.width}
                     height={image.height}
                     index={index}
@@ -60,6 +63,7 @@ const SkillsSection = () => {
                 <SkillDataProvider
                     key={index}
                     src={image.Image}
+                    name={image.skill_name}
                     width={image.width}
                     height={image.height}
                     index={index}
@@ -72,6 +76,7 @@ const SkillsSection = () => {
                 <SkillDataProvider
                     key={index}
                     src={image.Image}
+                    name={image.skill_name}
                     width={image.width}
                     height={image.height}
                     index={index}
