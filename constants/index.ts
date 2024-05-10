@@ -1,6 +1,6 @@
 export const skillsData = [
   {
-    skill_name: "Html 5",
+    skill_name: "HTML5",
     Image: "/skills/html.png",
     width: 80,
     height: 80,
@@ -42,7 +42,7 @@ export const skillsData = [
     height: 75,
   },
   {
-    skill_name: "Type Script",
+    skill_name: "TypeScript",
     Image: "/skills/ts.png",
     width: 70,
     height: 70,
@@ -60,13 +60,13 @@ export const skillsData = [
     height: 80,
   },
   {
-    skill_name: "Node js",
+    skill_name: "Node.js",
     Image: "/skills/node-js.png",
     width: 75,
     height: 75,
   },
   {
-    skill_name: "Mongo DB",
+    skill_name: "MongoDB",
     Image: "/skills/mongodb.png",
     width: 40,
     height: 40,
@@ -87,13 +87,13 @@ export const frontendSkills = [
     height: 65,
   },
   {
-    skill_name: "Tailwind CSS",
+    skill_name: "Tailwind",
     Image: "/skills/tailwind.png",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "Material UI",
+    skill_name: "MaterialUI",
     Image: "/skills/mui.png",
     width: 80,
     height: 80,
@@ -117,8 +117,8 @@ export const frontendSkills = [
     height: 80,
   },
   {
-    skill_name: "TypeScript",
-    Image: "/skills/ts.png",
+    skill_name: "React Testing Library",
+    Image: "/skills/rtl.svg",
     width: 70,
     height: 70,
   },
@@ -138,13 +138,13 @@ export const backendSkills = [
     height: 80,
   },
   {
-    skill_name: "Express js",
+    skill_name: "Express",
     Image: "/skills/express.png",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "Mongo DB",
+    skill_name: "MongoDB",
     Image: "/skills/mongodb.png",
     width: 40,
     height: 40,
@@ -162,7 +162,7 @@ export const backendSkills = [
     height: 70,
   },
   {
-    skill_name: "My SQL",
+    skill_name: "MySQL",
     Image: "/skills/mysql.png",
     width: 70,
     height: 70,
@@ -174,7 +174,7 @@ export const backendSkills = [
     height: 70,
   },
   {
-    skill_name: "Graphql",
+    skill_name: "GraphQL",
     Image: "/skills/graphql.png",
     width: 80,
     height: 80,

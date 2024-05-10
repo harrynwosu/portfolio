@@ -3,15 +3,17 @@ import React from 'react'
 import {motion} from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import Image from 'next/image';
+import Tooltip from './utils/Tooltip';
 
 interface SkillDataProviderProps {
     src: string;
+    name: string;
     index: number;
     width: number;
     height: number;
 }
 
-const SkillDataProvider = ({ src, index, width, height } : SkillDataProviderProps) => {
+const SkillDataProvider = ({ src, name, index, width, height } : SkillDataProviderProps) => {
     const {ref, inView} = useInView({
         triggerOnce: true
     })
@@ -31,13 +33,18 @@ const SkillDataProvider = ({ src, index, width, height } : SkillDataProviderProp
             animate={inView ? "visible" : "hidden"}
             custom={index}
             transition={{delay: index * animationDelay}}
+            className='group relative cursor-pointer'
         >
-            <Image
-                src={src}
-                width={width}
-                height={height}
-                alt='skill image'
-            />
+            <div className='group'>
+                <Image
+                    src={src}
+                    width={width}
+                    height={height}
+                    alt='skill image'
+                />
+                <Tooltip label={name}/>
+            </div>
+            
         </motion.div>
         )
 }
