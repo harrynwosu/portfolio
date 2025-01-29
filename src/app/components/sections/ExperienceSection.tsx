@@ -6,6 +6,7 @@ import GoogleIcon from '../../../../public/google-icon.svg';
 import SalesforceIcon from '../../../../public/salesforce-icon.svg';
 import ChaseIcon from '../../../../public/chase-icon.svg';
 import BloombergIcon from '../../../../public/bloomberg-icon.svg';
+import TreeHacksIcon from '../../../../public/treehacks.svg';
 import { motion } from 'framer-motion';
 
 interface Experience {
@@ -20,13 +21,27 @@ const experiences: Experience[] = [
     {
         id: 0,
         name: 'Slack',
+        date: 'Virtual HQ',
+        description: 'Incoming Software Engineer',
+        logo: SlackIcon,
+    },
+    {
+        id: 1,
+        name: 'TreeHacks',
+        date: 'February 2025',
+        description: 'Building cool stuff @ Stanford.',
+        logo: TreeHacksIcon,
+    },
+    {
+        id: 2,
+        name: 'Slack',
         date: 'Virtual HQ - Summer 2024',
         description:
             'Developed a user feedback system for audio/video transcripts at Slack, collaborating with PMs, designers, and data scientists using AWS, Hack, React, and TypeScript. Optimized transcription performance by 30% and implemented video features like noise suppression, picture-in-picture, and interactive reactions to boost user engagement.',
         logo: SlackIcon,
     },
     {
-        id: 1,
+        id: 3,
         name: 'Google',
         date: 'Software Engineering Program',
         description:
@@ -34,7 +49,7 @@ const experiences: Experience[] = [
         logo: GoogleIcon,
     },
     {
-        id: 2,
+        id: 4,
         name: 'Salesforce Inc.',
         date: 'Canvas EditorXP - Summer 2023',
         description:
@@ -42,7 +57,7 @@ const experiences: Experience[] = [
         logo: SalesforceIcon,
     },
     {
-        id: 3,
+        id: 5,
         name: 'J.P Morgan Chase & Co.',
         date: 'Code for Good Hackathon - October 2023',
         description:
@@ -50,7 +65,7 @@ const experiences: Experience[] = [
         logo: ChaseIcon,
     },
     {
-        id: 4,
+        id: 6,
         name: 'Bloomberg',
         date: 'Engineering Accelerator - June 2023 - July 2023',
         description:
