@@ -22,15 +22,9 @@ const HeroSection = () => {
                         <br />
                         <TypeAnimation
                             sequence={[
-                                'Harold!',
+                                'Harry!',
                                 1000,
                                 'a Software Engineer',
-                                1000,
-                                'a Web Developer',
-                                1000,
-                                'an iOS Developer',
-                                1000,
-                                'a Data Scientist',
                                 1000,
                                 'an avid learner.',
                                 1000,
@@ -41,8 +35,8 @@ const HeroSection = () => {
                         />
                     </h1>
                     <p className='text-[#ADB7BE] text-base sm:text-lg mb-4 lg:text-xl'>
-                        Aspiring Software Engineer. Born and raised in Nigeria;
-                        striving to make the world a better place one line of
+                        Aspiring Software Engineer. Born and raised in Nigeria.
+                        Striving to make the world a better place one line of
                         code at a time.
                     </p>
                     <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl'>
@@ -62,7 +56,7 @@ const HeroSection = () => {
                             </button>
                         </Link>
                         <Link
-                            href='https://drive.google.com/file/d/1r_A8Uc4XAT485FoqcPKwghvUcX8YJrgN/view?usp=sharing'
+                            href='https://example.com/contact-me-for-resume'
                             target='_blank'
                         >
                             <button className='px-1 py-1 rounded-full w-full sm:w-fit bg-gradient-to-br from-primary-500 to-cyan-500 hover:bg-slate-800 text-white mt-3 z-30'>
@@ -82,7 +76,7 @@ const HeroSection = () => {
                 >
                     <div className='rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative'>
                         <Image
-                            src='/images/back.png'
+                            src='/images/new_avatar2.png'
                             alt='profile image'
                             className='absolute mx-auto w-full h-full rounded-full object-cover z-20'
                             fill

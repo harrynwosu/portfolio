@@ -21,8 +21,8 @@ const experiences: Experience[] = [
     {
         id: 0,
         name: 'Slack',
-        date: 'Virtual HQ',
-        description: 'Incoming Software Engineer',
+        date: 'June 2025 - Present',
+        description: 'Software Engineer',
         logo: SlackIcon,
     },
     {
@@ -100,7 +100,7 @@ const ExperienceSection = () => {
                                 description={experience.description}
                                 logo={experience.logo}
                             />
-                        )
+                        ),
                     )}
                 </div>
             </motion.div>

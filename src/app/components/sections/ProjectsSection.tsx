@@ -15,17 +15,17 @@ const projects = [
         tag: ['All', 'Web'],
         gitUrl: 'https://github.com/harrynwosu/harry-shorter',
     },
+    // {
+    //     id: 2,
+    //     title: 'Portfolio',
+    //     description:
+    //         'The website you are currently on! Built in NextJS mainly using Typescript, Node.js, React, and Tailwind CSS. A responsive and mobile-friendly site designed to showcase my relevant skills and experience.',
+    //     image: 'images/projects/Project1.png',
+    //     tag: ['All', 'Web'],
+    //     gitUrl: 'https://github.com/harrynwosu/portfolio',
+    // },
     {
         id: 2,
-        title: 'Portfolio',
-        description:
-            'The website you are currently on! Built in NextJS mainly using Typescript, Node.js, React, and Tailwind CSS. A responsive and mobile-friendly site designed to showcase my relevant skills and experience.',
-        image: 'images/projects/Project1.png',
-        tag: ['All', 'Web'],
-        gitUrl: 'https://github.com/harrynwosu/portfolio',
-    },
-    {
-        id: 3,
         title: 'Konverse Real-time Chat App',
         description:
             'My first go at a chat application. Built with React, SCSS, and Chatengine API, using web sockets under the hood. Currently supports group chats. Still a work in progress!',
@@ -34,7 +34,7 @@ const projects = [
         gitUrl: 'https://github.com/harrynwosu/konverse-chat-app',
     },
     {
-        id: 4,
+        id: 3,
         title: 'Ramp Coding Challenge',
         description:
             'A frontend coding challenge in a React + TypeScript codebase. Involved fixing a variety of bugs ranging from incorrect state management, rendering issues and styling issues.',
@@ -43,7 +43,7 @@ const projects = [
         gitUrl: 'https://github.com/harrynwosu/ramp-frontend-challenge',
     },
     {
-        id: 5,
+        id: 4,
         title: 'Wordle iOS App',
         description:
             "My implementation of the famous Wordle game on iOS devices! Developed using Swift and UI Kit. Implemented settings that allows players change the length of the goal word, number of guesses allowed, and an insane difficulty level 'alien wordle'. Feel free to try on your devices and let me know your thoughts!",
@@ -63,7 +63,7 @@ const ProjectsSection = () => {
     };
 
     const filteredProjects = projects.filter((project) =>
-        project.tag.includes(activeTag)
+        project.tag.includes(activeTag),
     );
 
     const cardVariants = {
